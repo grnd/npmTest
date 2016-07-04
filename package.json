@@ -6,10 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
- "dependencies": {
+  "dependencies": {
     "falcor-hapi": "netflix/falcor-hapi",
-    "bassmaster": "1.5.1"
-}, 
- "author": "",
+    "bassmaster": "1.5.2"
+  },
+  "author": "",
   "license": "ISC"
 }
