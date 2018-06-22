@@ -4,13 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
- "dependencies": {
+  "dependencies": {
     "falcor-hapi": "netflix/falcor-hapi",
-    "bassmaster": "1.5.1",
-    "errorhandler": "1.2.0"
-}, 
- "author": "",
-  "license": "ISC"
+    "bassmaster": "2.0.0",
+    "errorhandler": "1.2.0",
+    "snyk": "^1.83.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "snyk": true
 }
