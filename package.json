@@ -8,7 +8,7 @@
   },
  "dependencies": {
     "falcor-hapi": "netflix/falcor-hapi",
-    "bassmaster": "1.5.1",
+    "bassmaster": "3.0.0",
     "errorhandler": "1.2.0"
 }, 
  "author": "",
